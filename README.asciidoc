@@ -1,0 +1,24 @@
+verdi-py
+========
+
+:author:  Isaac Yeaton
+:date:    April 17, 2012
+
+A Python class to interact with the Verdi family of lasers from
+Coherent, Inc.
+
+
+== Purpose
+
+This is a pure python interface to a Verdi laser using a standard
+serial port interface.  It includes functions to control internal
+laser component temperatures (etalon, vanadate) and to control
+laser the shutter and output power.
+
+Note that some of the functionality requires the laser to be put
+in "maintenance mode", which may void your warrenty.
+
+Some simple scripts are also included where the verdi-py class
+is used in conjunction with a link:http://labjack.com/u3[LabJack U3]
+to acuquire photodiode readings and laser power.  The LabJack interface
+is provided by link:http://labjack.com/support/labjackpython[LabJackPython].
