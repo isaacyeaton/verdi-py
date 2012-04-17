@@ -22,3 +22,15 @@ Some simple scripts are also included where the verdi-py class
 is used in conjunction with a link:http://labjack.com/u3[LabJack U3]
 to acuquire photodiode readings and laser power.  The LabJack interface
 is provided by link:http://labjack.com/support/labjackpython[LabJackPython].
+
+
+== TODO
+
+. Clean-up the source directory so that only one class file exists
+. Add error checking for baud-rate and other serial port configuration
+  to help the user diagnose the error
+. Add documentation on how to call/use the functions
+. Add unit tests?
+. Remove redundtant tests
+. PEP8 compliance
+
